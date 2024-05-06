@@ -18,7 +18,7 @@ const items = [
   {
     id: 1,
     color: "from-yellow-100 to-blue-300",
-    title: "RSVP APP",
+    title: "RSVP App",
     desc: "Empower your event planning with our intuitive RSVP app built with React. Seamlessly manage guest lists, track responses, and send event updates, all in one place. With a user-friendly interface and real-time updates, organizing your event has never been easier.",
     img: "/rsvp.png",
     link: "https://rsvp-chi.vercel.app",
@@ -34,14 +34,15 @@ const items = [
   git: "https://github.com/ALImTALEB/React-scoreBoardApp",
 
   },
-  // {
-  //   id: 4,
-  //   color: "from-purple-300 to-red-300",
-  //   title: "Spotify Music App",
-  //   desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-  //   img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-  //   link: "https://lama.dev",
-  // },
+  {
+    id: 4,
+    color: "from-gray-100 to-red-200",
+    title: "Flashcards App",
+    desc: "Study smarter with our simple flashcard app! Enhance your learning experience with quick quizzes tailored to your needs.",
+    img: "/flash.png",
+    link: "pink-shy-catfish.cyclic.app",
+  git: "https://github.com/ALImTALEB/Flashcards-app"
+  },
 ];
 
 const Portfolio = () => {
@@ -89,7 +90,7 @@ const Portfolio = () => {
                 className={`h-screen w-screen flex items-center justify-center bg-gradient-to-r ${item.color}`}
                 key={item.id}
               >
-                <div className="flex flex-col gap-8 text-white">
+                <div className="flex flex-col gap-8 text-black">
                   <h1 className="text-xl font-bold md:text-4xl lg:text-6xl">
                     {item.title}
                   </h1>
