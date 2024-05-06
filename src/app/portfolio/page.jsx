@@ -40,7 +40,7 @@ const items = [
     title: "Flashcards App",
     desc: "Study smarter with our simple flashcard app! Enhance your learning experience with quick quizzes tailored to your needs.",
     img: "/flash.png",
-    link: "pink-shy-catfish.cyclic.app",
+    link: "https://pink-shy-catfish.cyclic.app",
   git: "https://github.com/ALImTALEB/Flashcards-app"
   },
 ];
