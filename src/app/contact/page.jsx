@@ -112,8 +112,7 @@ const Contact = () => {
           className="h-2/3 lg:h-full lg:w-1/2 bg-blue-50 text-black rounded-xl text-xl flex flex-col gap-8 justify-center p-24"
         >
           <span>Dear Ali,</span>
-          <textarea
-            rows={6}
+          <input
             placeholder="Your message..."
             className="bg-transparent border-b-2 border-b-black outline-none resize-none"
             name="user_message"
