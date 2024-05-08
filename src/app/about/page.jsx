@@ -30,7 +30,7 @@ const About = () => {
             <h1 className="font-bold  text-2xl">BIOGRAPHY</h1>
             {/* details bio */}
             <p className="text-lg">
-              <strong>Hi, I'm Ali Taleb, a Junior Full Stack JavaScript Web Developer.</strong><br />
+              <strong>Hi, I'm Ali Taleb, a Junior Full Stack JS Web Developer.</strong><br />
               Passionate about crafting user-centric web applications with
               JavaScript. Eager to learn, grow, and make an impact. Let's build
               something awesome together!
