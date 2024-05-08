@@ -113,7 +113,7 @@ const Contact = () => {
         >
           <span>Dear Ali,</span>
           <input
-            placeholder="Your message..."
+            placeholder="Enter your message..."
             className="bg-transparent border-b-2 border-b-black outline-none resize-none"
             name="user_message"
           />
