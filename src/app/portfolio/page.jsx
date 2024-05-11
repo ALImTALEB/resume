@@ -5,6 +5,16 @@ import Link from "next/link";
 import { useRef } from "react";
 
 const items = [
+
+  {
+    id: 0,
+    color: "from-blue-600 to-blue-300",
+    title: "MERN Booking App",
+    desc: "Experience seamless hotel bookings with our user-friendly app. Discover and reserve your ideal accommodations effortlessly. Your next adventure starts here!",
+    img: "/zervi.png",
+    link: "https://mern-booking-app-t0zh.onrender.com/",
+    git: "https://github.com/ALImTALEB/mern-booking-app",
+  },
   
   {
     id: 2,
