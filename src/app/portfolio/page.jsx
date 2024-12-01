@@ -5,17 +5,26 @@ import Link from "next/link";
 import { useRef } from "react";
 
 const items = [
-
   {
     id: 0,
+    color: "from-orange-600 to-orange-300",
+    title: "MERN Food Ordering App",
+    desc: "Experience seamless full-stack app for restaurants to manage orders, track resources, and process payments.",
+    img: "/food.png",
+    link: "https://pexaeatsfrontend.onrender.com/",
+    git: "https://github.com/ALImTALEB/pexaEatsFrontend",
+  },
+
+  {
+    id: 1,
     color: "from-blue-600 to-blue-300",
     title: "MERN Booking App",
     desc: "Experience seamless hotel bookings with our user-friendly app. Discover and reserve your ideal accommodations effortlessly. Your next adventure starts here!",
-    img: "/zervi.png",
+    img: "/zervii.png",
     link: "https://mern-booking-app-t0zh.onrender.com/",
     git: "https://github.com/ALImTALEB/mern-booking-app",
   },
-  
+
   {
     id: 2,
     color: "from-blue-300 to-violet-300",
@@ -26,7 +35,7 @@ const items = [
     git: "https://github.com/ALImTALEB/Expense-App",
   },
   {
-    id: 1,
+    id: 3,
     color: "from-yellow-100 to-blue-300",
     title: "RSVP App",
     desc: "Empower your event planning with our intuitive RSVP app built with React. Seamlessly manage guest lists, track responses, and send event updates, all in one place. With a user-friendly interface and real-time updates, organizing your event has never been easier.",
@@ -35,23 +44,22 @@ const items = [
     git: "https://github.com/ALImTALEB/RSVP",
   },
   {
-    id: 3,
+    id: 4,
     color: "from-violet-300 to-blue-300",
     title: "SCOREBOARD",
     desc: "Elevate your game with our React-based scoreboard app. Keep track of scores, time in real-time. Streamline competition management and make every match memorable.",
     img: "/score.png",
     link: "https://pexa-scoreboard.netlify.app",
-  git: "https://github.com/ALImTALEB/React-scoreBoardApp",
-
+    git: "https://github.com/ALImTALEB/React-scoreBoardApp",
   },
   {
-    id: 4,
+    id: 5,
     color: "from-gray-100 to-red-200",
     title: "Flashcards App",
     desc: "Study smarter with our simple flashcard app! Enhance your learning experience with quick quizzes tailored to your needs.",
     img: "/flash.png",
     link: "https://pink-shy-catfish.cyclic.app",
-  git: "https://github.com/ALImTALEB/Flashcards-app"
+    git: "https://github.com/ALImTALEB/Flashcards-app",
   },
 ];
 
